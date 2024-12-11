@@ -22,6 +22,7 @@ data = data.dropna()
 print(data.isnull().sum()) # demonstrando que todos os valores nulos foram removidos
 
 # exemplo de exploração de filme por ano:
+print("\n --- Filmes por ano de lançamento: Quantidade no terminal e Gráfico --- \n")
 print(data['release_year'].value_counts().head(10))
 
 # exemplo de demonstração gráfica com seaborn e pyplot (filmes por ano de lançamento)
