@@ -1,3 +1,5 @@
+# comparação de duração de filmes com o número de temporadas das séries
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt

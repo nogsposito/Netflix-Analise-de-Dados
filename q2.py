@@ -1,3 +1,5 @@
+# como distribuição de filmes e séries varia por ano de lançamento
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
