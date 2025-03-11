@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 # função do pandas para ler dataset csv
 data = pd.read_csv('data/netflix_titles.csv')
 
+
 # verificando se tudo está correto:
 print("\n --- Verificações Iniciais --- \n")
 print(data.head())
